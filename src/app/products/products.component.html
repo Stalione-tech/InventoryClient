@@ -2,7 +2,7 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <img width="40" title="Logo"/>
-  <span>Welcome</span>
+  <span>Stalione Inventory System</span>
     <div class="spacer"></div>
     <a aria-label="Angular on twitter" target="_blank" rel="noopener">
       <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
@@ -17,8 +17,9 @@
 <h2>Products</h2>
 </div>
 
+
 <div class="row">
-<div class="col-sm-3 col-md-3" style=" margin-left:10px;margin-right:-20px;margin-top: 50px;margin-bottom:20px;" *ngFor = "let item of allProducts">
+<div class="col-sm-3 col-md-3" style="margin-top: 50px;margin-bottom:20px;" *ngFor = "let item of allProducts">
 <div class="card">
   <div>
     <img class="rounded mx-auto d-block img-responsive mt-3" src="{{item.product_image}}" alt="Card image cap">
