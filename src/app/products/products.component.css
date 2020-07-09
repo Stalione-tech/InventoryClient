@@ -1,0 +1,43 @@
+
+ .toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover {
+  opacity: 0.8;
+}
+
+.spacer {
+  flex: 1 0;
+}
+
+
+     img{
+       height:120px;
+       width:auto
+     }
+     /* .col-sm-3 col-md-3{
+       margin-left:10px;
+       margin-right:-20px;
+       margin-top: 52px;
+       margin-bottom:20px;
+     } */
+
+
+
+
